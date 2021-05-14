@@ -1,0 +1,27 @@
+<%- include('partials/header') %>
+
+<div class="jumbotron text-center">
+  <div class="container">
+    <h1 class="display-3">Encrypt!</h1>
+
+    <hr>
+
+
+            <form action="/encrypt" method="POST">
+              <div class="form-group">
+                <label>Enter the message for encryption</label>
+                <input  class="form-control" name="message">
+              </div>
+              <h2><%= emessage%></h2>
+              <button type="submit" class="btn btn-dark">Encrypt</button>
+            </form>
+
+
+
+    <hr>
+    <a class="btn btn-light btn-lg" href="/secrets" role="button">Home</a>
+  </div>
+</div>
+
+
+<%- include('partials/footer') %>
