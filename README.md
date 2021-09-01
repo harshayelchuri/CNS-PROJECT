@@ -1,3 +1,1 @@
-# Authentication-Secrets
-# CNS-PROJECT
-# CNS-PROJECT
+Password Authentication with Cookies
